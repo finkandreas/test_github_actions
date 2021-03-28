@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - main
+      - test_ci2
   pull_request:
     branches:
       - main
