@@ -4,6 +4,6 @@ include:
 run:
     extends: .daint
     image: ubuntu:18.04
-    script: echo "hello"
+    script: echo "hello2"
     variables:
       PULL_IMAGE: 'YES'
