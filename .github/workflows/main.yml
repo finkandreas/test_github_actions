@@ -22,4 +22,4 @@ jobs:
     - name: Dummy workload
       run:
        - echo success
-       - echo test
+       - echo test2
