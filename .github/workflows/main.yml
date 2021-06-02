@@ -20,4 +20,6 @@ jobs:
 
     # Mirror repository to REMOTE for CI
     - name: Dummy workload
-      run: echo success
+      run:
+       - echo success
+       - echo test
