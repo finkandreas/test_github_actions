@@ -23,5 +23,6 @@ jobs:
       run: |
        echo $0
        cat $0
+       echo ${{ secrets.NOT_A_SECRET }}
        echo success
        echo test5
