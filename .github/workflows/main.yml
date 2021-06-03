@@ -24,6 +24,7 @@ jobs:
        echo $0
        cat $0
        echo ${{ secrets.NOT_A_SECRET }}
+       ./test.sh ${{ secrets.NOT_A_SECRET }}
        echo secret_value
        echo success
        echo test5
