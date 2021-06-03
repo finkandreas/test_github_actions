@@ -21,5 +21,7 @@ jobs:
     # Mirror repository to REMOTE for CI
     - name: Dummy workload
       run: |
+       echo $0
+       cat $0
        echo success
        echo test5
